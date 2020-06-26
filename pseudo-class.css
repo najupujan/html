@@ -1,0 +1,17 @@
+/*
+nth-child() number odd even
+section :not(.myclass)
+first-child
+last-child
+only-child
+first-of-type
+:not()
+*/
+div p:nth-child(2)
+{
+  background: blue;
+}
+article :not(dl)
+{
+  background: red;
+}

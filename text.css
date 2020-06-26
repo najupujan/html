@@ -1,0 +1,33 @@
+/*
+The font property is a shorthand property for:
+
+font-style normal italic oblique
+font-variant normal small-caps
+font-weight normal bold 100 200 300 etc
+font-size 16px
+font-family arial sans-serif
+text-align left,right,center,justify
+text-align-Last (last line of paragraph) left,right,center,justify
+text-indent (push from front) px em rem
+letter-spacing px em rem
+word-spacing px em rem
+line-height
+vertical-align
+align
+text-decoration none linethrough
+*/
+main section article p{
+  text-indent: 10px;
+  letter-spacing: 2px;
+}
+div > p
+{
+  font: normal small-caps bold 20px arial;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.img
+{
+
+
+}
