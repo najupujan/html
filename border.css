@@ -1,0 +1,43 @@
+/*
+border-width: top right bottom left;
+border-style: none hidden dotted dashed solid double groove ridge inset outset(order same as above) ;
+border-color:
+border-radious:top-left top-right bottom-right bottom-left
+border:
+outline-width:
+outline-style:
+outline-color:
+outline-offset:
+outline:
+border-image-source:
+border-image-width:
+border-image-repeat:repeat stretch round space;
+border-image-slice:
+border-image-outset:
+border-image:
+shorthand: source slice / width / outset repeat:
+border-image: linear-gradient(red,blue) 27 /35px;
+background-image: linear-gradient(to right, red , yellow);
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+radial gradient
+go to border image generator
+*/
+div  p:nth-child(2)
+{
+  font: normal normal bold 20px arial;
+  margin:20px 0px 20px 0px ;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  background: #992dd6;
+  border:5px solid red;
+  border-radius: 10px 10px 100px 100px;
+  outline: 5px dotted black;
+  outline-offset: 2px;
+}
+#container {
+    font-size:20px;
+    font-family:arial;
+    border-width: 50px;
+    border-style: solid;
+    border-image: url(borderimg.jpg) 25 / 50px / 0px round;
+}
