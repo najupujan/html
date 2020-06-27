@@ -1,0 +1,17 @@
+/*
+background-color
+background-image
+background-position
+background-size
+background-repeat repeat repeat-x repeat-y no-repeat
+background-origin
+background-clip
+background-attachment
+background
+*/
+body{
+background-image: url("icon.jpg");
+background-position: center;
+background-size: auto;
+background-repeat: no-repeat;
+}
