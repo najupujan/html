@@ -1,0 +1,32 @@
+/* box shadow : h-ofset v-ofset blur spread color;
+multiple shadow
+box-shadow :-5px 5px  3px  rgb(142, 203, 84),-5px 5px  3px  rgb(142, 203, 84);
+css text-shadow hshadow vshadow blurradious color;
+*/
+div p:nth-child(1) {
+  background: rgb(131, 103, 176);
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  box-shadow: -5px 5px  3px  rgb(142, 203, 84) , -10px 10px  3px  rgb(84, 98, 203);
+  width: 100px;
+  margin: 0 auto;
+
+}
+div p:nth-child(2) {
+  background: #47b1cd;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  box-shadow: -5px 5px  3px  2px rgb(142, 203, 84) inset;
+  width: 100px;
+  margin: 40px auto;
+
+}
+div p:nth-child(3)
+{
+  background: rgb(114, 83, 140);
+  margin: 20px auto;
+  width: 100px;
+  font-size-adjust: auto;
+  font-size: 20px;
+  text-shadow: 5px 5px 3px white;
+}

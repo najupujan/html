@@ -1,0 +1,56 @@
+/*
+rotate(angle)
+translate(x,y)
+translateX(x)
+translateY(y)
+scale(x,y)
+scaleX(x)
+scaleY(y)
+skew(x-angle,y-angle)
+skewX(angle)
+skewY(angle)
+matrix(n,n,n,n,n,n)
+matrix(scaleX(),skewY()skewX(),scaleY(),translateX(),translateY())
+none
+*/
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  border-width: 50px;
+  border-style: solid;
+  border-image: url(borderimg.jpg) 20 / 50px / 0px stretch;
+}
+
+#blue-box {
+  background: blue;
+  transform: rotate(10deg);
+  transform-origin: left top;
+
+  /* transform-origin: 20% 30%*/
+}
+
+#green-box {
+  background: green;
+  transform-origin: 0% 0% ;
+  transform: scale(1.4);
+}
+
+#red-box {
+  background: red;
+  transform: skew(20deg, 20deg);
+}
+
+#black-box {
+  background: black;
+  width: 100px;
+  height: 100px;
+  transform: translate(50px , 50px);
+  transition: transform 2s;
+}
+#black-box:hover
+{
+
+  transform: rotate(-45deg);
+
+}

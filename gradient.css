@@ -1,0 +1,29 @@
+/*
+linear-gradient
+radial-gradient
+repeting linear-gradient
+repeting radial-gradient
+linear-gradinet 1 side to another side
+
+*/
+h1
+{
+  text-align: center;
+  background: rgb(118, 91, 224);
+  padding : 5px;
+  margin: 10px auto;
+  font: normal normal bold 30px sans-serif;
+  text-shadow: 5px 5px 5px rgb(149, 137, 136);
+
+}
+main p
+{
+  text-align: center;
+  background: rgb(185, 108, 31);
+  padding: 20px;
+  font: normal normal normal 15px arial;
+  margin: 20px auto;
+  border-width: 50px;
+  border-style: solid;
+  border-image: url(borderimg.jpg) 25 / 60px / 0px round;
+}

@@ -1,0 +1,30 @@
+article {
+  background: rgb(132, 171, 91);
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /*  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  */
+  flex-flow: row nowrap;
+  justify-content: center;;/*vertical*/
+  /*
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  */
+  align-items: center;/*horizontal*/
+  
+}
+
+main section article div {
+  padding: 10px;
+  margin: 20px 10px 20px 10px;
+  background: rgb(199, 85, 164);
+  text-align: center;
+  border
+}
